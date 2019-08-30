@@ -13,7 +13,7 @@ SELECT o.OrderID, s.ShipperName
 FROM Orders AS o
 JOIN Shippers AS s
 	ON o.ShipperID = s.ShipperID
-WHERE o.OrderDate < 1997-01-09;
+WHERE o.OrderDate < '1997-01-09';
 
 ### Display all ProductNames and Quantities placed on order 10251. Sort by ProductName. Shows 3 records.
 
